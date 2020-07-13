@@ -1,0 +1,2 @@
+# demoOne
+static games
