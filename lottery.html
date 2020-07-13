@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Lottery | Game</title>
+        <link rel="stylesheet" href="lottery_game.css">
+        <script src="lottery_script.js"></script>
+    </head>
+<body onload="create_lottery()">
+    <center>
+    <div class="outermost-container">
+        <center>
+        <div class="intro">Lottery</div>
+        <div class="row-one">
+            <button onclick="this.disabled = true; answer.push(0); track++; show_piece(); " class="col-one"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(1); track++; show_piece(); "  class="col-two"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(2); track++; show_piece(); " class="col-three"><div class="symbol"></div></button>
+        </div>
+        </center>
+        <center>
+        <div class="row-two">
+            <button onclick="this.disabled = true; answer.push(3); track++; show_piece(); "   class="col-four"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(4); track++; show_piece(); "   class="col-five"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(5); track++; show_piece(); "  class="col-six"><div class="symbol"></div></button>
+        </div>
+        </center>
+        <center>
+        <div class="row-three">
+            <button onclick="this.disabled = true; answer.push(6); track++; show_piece(); "   class="col-seven"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(7); track++; show_piece(); "   class="col-eight"><div class="symbol"></div></button>
+            <button onclick="this.disabled = true; answer.push(8); track++; show_piece(); "   class="col-nine"><div class="symbol"></div></button>
+        </div>  
+        </center>  
+    </div>
+    <h1 id="result"></h1>
+    <button onclick="location.href='lottery.html';" id="play-again-button">Play again</button>
+    </center>
+</body>
+</html>
