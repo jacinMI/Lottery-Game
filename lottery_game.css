@@ -1,3 +1,6 @@
+*{
+    font-family: -webkit-pictograph;
+}
 .outermost-container
 {
     width : 270px;
@@ -28,21 +31,18 @@ img
 {
 
     margin-top: 70px;
-    font-family: courier new;
     font-size: 30px;
-    color : #2980b9;
+    color : #f52323;
 }
 
 #play-again-button
 {
     margin-top : 20px;
     width : 200px;
-    height: 35px;
-    padding-bottom: 3.5px;
-    font-family: courier new;
+    padding: 10px 25px;
     font-size: 25px;
     color :white;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     background: #2980b9;
     display: none;
@@ -50,7 +50,7 @@ img
 
 #play-again-button:hover
 {
-    background: #7f8c8d;
+    background: #a557bd;
 }
 #play-again-button:focus
 {
@@ -58,8 +58,12 @@ img
 }
 .intro
 {
-    font-family: courier new;
     font-size: 35px;
     font-weight: 600;
-    color :#8e44ad;
+    color :#4454ad;
+}
+.outermost-container button {
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
 }

@@ -73,7 +73,7 @@ function show_piece()
     for(i=0;i<answer.length;i++)
     {
         x[answer[i]].style.display = "block";
-        x[answer[i]].style.border = "3px solid #2c3e50";
+        x[answer[i]].style.border = "0px solid #2c3e50";
     }
 
     if(track == 3)
