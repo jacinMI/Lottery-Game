@@ -16,5 +16,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/ubuntu/Lottery-Game
-            sudo git pull origin main
+            sudo git pull origin master
             echo "Done"
